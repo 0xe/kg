@@ -34,7 +34,7 @@ escape sequences.
 - Keyboard macros (C-x ( / C-x ) / C-x e)
 - M-x, C-x C-f, and C-x b all share an ido-style picker: substring
   matching, already-open files pushed to the back of the file picker
-- Detects external changes to open files; optional auto-revert
+- Detects external changes to open files; auto-reverts clean buffers by default
 - Shell commands (M-!) and pipe-region-through-command (M-|)
 - Comment-dwim (M-;)
 - Word-case bindings (M-u / M-l / M-c)

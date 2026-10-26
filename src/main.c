@@ -36,8 +36,8 @@
 struct editor_config editor;
 int running = 1;
 int suppress_undo = 0;
-int global_auto_revert = 0;
-int make_backup_files = 1;
+int global_auto_revert = 1;
+int make_backup_files = 0;
 int require_final_newline = 0;
 
 void init_editor(void)

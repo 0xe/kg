@@ -5,6 +5,9 @@ keys:
   - M-x
   - require-final-newline
   - RET
+  - M-x
+  - make-backup-files
+  - RET
   - C-e
   - Z
   - C-x

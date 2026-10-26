@@ -3,6 +3,9 @@ filename: note.txt
 initial: |
   original
 keys:
+  - M-x
+  - make-backup-files
+  - RET
   - X
   - C-x
   - C-s

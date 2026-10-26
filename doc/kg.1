@@ -535,6 +535,7 @@ Toggle automatic re-reading for every buffer at once.
 Equivalent to enabling
 .Ic auto-revert-mode
 in every buffer.
+On by default.
 .It goto-line
 Go to a specific line (prompts for line or line:col).
 Equivalent to
@@ -553,7 +554,7 @@ Toggle whether the first save of a visit keeps the previous version of the
 file as a
 .Pa file~
 backup.
-On by default.
+Off by default.
 .It mark-paragraph
 Set the mark at the paragraph's start and put point at its end.
 Equivalent to
@@ -660,9 +661,10 @@ against such a buffer the user is prompted to confirm before overwriting.
 With
 .Ic auto-revert-mode
 (or its global counterpart
-.Ic global-auto-revert-mode )
-turned on, a clean buffer whose file has changed on disk is silently
-reloaded so the view always matches the file.
+.Ic global-auto-revert-mode ,
+which is on by default)
+a clean buffer whose file has changed on disk is silently reloaded so the
+view always matches the file.
 Modified buffers are never reverted automatically — the
 .Sq (changed)
 marker stays visible until either the user saves (and is prompted) or
